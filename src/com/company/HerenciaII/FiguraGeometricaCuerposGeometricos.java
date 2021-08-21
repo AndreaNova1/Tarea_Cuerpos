@@ -1,5 +1,4 @@
 package com.company.HerenciaII;
-
 public abstract class FiguraGeometricaCuerposGeometricos extends FiguraGeometrica {
     @Override
     String mostrarTipoFigura() {
