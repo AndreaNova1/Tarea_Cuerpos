@@ -3,14 +3,12 @@ package com.company.HerenciaII;
 public abstract class FiguraGeometricaPlana extends FiguraGeometrica {
 
     @Override
-    public double calculoArea() {
-
+    public double calcularArea() {
         return 0;
     }
 
     @Override
-    public double calculoPerimetro() {
-
+    public double calcularPerimetro() {
         return 0;
     }
 }

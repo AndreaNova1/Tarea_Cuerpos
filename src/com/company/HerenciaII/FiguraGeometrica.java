@@ -1,14 +1,19 @@
 package com.company.HerenciaII;
+
 public abstract class FiguraGeometrica {
-    private String figura;
+    private String forma;
+
     public FiguraGeometrica(){
-        this.figura="Tipo de Figura";
-    }
-    String mostrarTipoFigura(){
-        return this.figura;
+        this.forma="Figura Geometrica";
     }
 
-    abstract double calculoArea();
 
-    abstract double calculoPerimetro();
+String mostrarTipoFigura(){
+        return this.forma;
+    }
+
+  abstract double calcularArea();
+   abstract double calcularPerimetro();
 }
+
+

@@ -1,18 +1,18 @@
 package com.company.HerenciaII;
+
 public abstract class FiguraGeometricaCuerposGeometricos extends FiguraGeometrica {
     @Override
     String mostrarTipoFigura() {
         return super.mostrarTipoFigura();
     }
-    @Override
-    double calculoArea() {
 
+    @Override
+    double calcularArea() {
         return 0;
     }
 
     @Override
-    double calculoPerimetro() {
-
+    double calcularPerimetro() {
         return 0;
     }
 
